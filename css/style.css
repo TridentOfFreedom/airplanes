@@ -1,0 +1,101 @@
+body{
+	font-family: Verdana;
+	width: 80%;
+	margin: 0px auto;
+}
+header{
+	text-align: center;
+	background-image: url("../images/sky.jpeg");
+	background-size: cover;
+	color: white;
+	text-shadow: 8px 8px 20px #000000;
+}
+main{
+	border: 5px lightgray;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.mainblock{
+	background-color: lightblue;
+	border: 4px solid gray;
+}
+.block1 {
+    background-color: lightgray;
+    width: 55%;
+    float: left;
+    margin: 20px 20px 25px 0;
+    border: solid gray;
+    border-width: 4px 4px 4px 0;
+    text-align: center;
+}
+footer{
+	display: flex;
+}
+.block2{
+	margin-top: 15px;
+}
+img{
+	width: 250px;
+	margin: 40px 0 0 0;
+	border: 5px solid #fff;
+	box-shadow: 7px 7px 22px #000;
+	border-radius: 25px;
+}
+.imagesblock{
+	text-align: center;
+}
+.help1{
+	text-align: center;
+	border: 0;
+	box-shadow: 0 0 0;
+	border-radius: 0;
+	height: 150px;
+	width: 240px;
+	margin: 30px 0 20px 0;
+}
+.additional{
+	float: left;
+	width: 30%;
+	background-color: goldenrod;
+	border: 4px solid gray;
+	margin: 40px 0 60px 0;
+	text-align: center;
+	padding: 25px 25px 15px 25px;
+}
+.articles{
+	float: right;
+}
+footer{
+	margin: 0 0 80px 0;
+}
+h1{
+	font-size: 70px;
+}
+a{
+	color: white;
+}
+ul{
+	padding: 10px;
+	background: rgba(0, 0, 0, 0.5);
+}
+li{
+	display: inline;
+	padding: 0 10px 0 10px;
+}
+article{
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 20px;
+}
+@media (max-width: 700px){
+	h1{
+		font-size: 36px;
+		padding: 5px;
+	}
+	li{
+		display: block;
+		padding: 5px;
+	}
+}
